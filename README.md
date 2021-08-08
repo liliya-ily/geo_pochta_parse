@@ -15,7 +15,7 @@
 Данный алгоритм был реализован на языке python с использованием библиотек pandas и selenium.
 
 ### Проверка работоспособности 
-Для проверки работоспосбности проекта, необходимо скачать [chromedriver](https://chromedriver.chromium.org/) и указать его адрес в файле parsing.py в строке:
+Для проверки работоспособности проекта, необходимо скачать [chromedriver](https://chromedriver.chromium.org/) и указать его адрес в файле parsing.py в строке:
 
 ```python
 driver = webdriver.Chrome('geo_pochta_parse\chromedriver.exe')
