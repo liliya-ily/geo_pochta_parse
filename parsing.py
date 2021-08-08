@@ -80,6 +80,7 @@ hidden_address_window = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH,  '//*[@id="app"]/div[2]/div[1]/div[3]/div/div/div[5]/span[2]/div/span')))
 hidden_address_window.click()
 
+
 # Получение и запись данных из скрытого окна 
 table_xpath = '//*[@id="app"]/div[2]/div[2]/div[5]/div/div[2]/div[2]/div/table/tbody/'
 time.sleep(15)
